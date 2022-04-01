@@ -1,0 +1,325 @@
+* {
+    box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+.btn-outline-secondary{
+margin-bottom: 1em;
+    background: bisque;
+    color: black;
+}
+input{
+    display: block;
+    margin-bottom: 1em;
+}
+
+#filaproductos{
+text-align:center;
+}
+#vercarrito {
+
+	background: bisque;
+    color: black;
+    width: 100%;
+}
+#boton-informacion {
+
+	border: 1px solid #FCB426;
+	background: #6a5f4f;
+    color: white;
+}
+
+.modal-content{
+background:#eb7c2b;
+
+}
+	
+#galeria{
+	
+	margin:auto;
+	width:100%;
+}
+#uno {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+ .img-fluid{max-width: 100%;
+ height: auto;
+ }
+ .navbar-toggler:not(:disabled):not(.disabled) {
+    width: 100%;
+}
+ #uno > h1 {
+	font-family: 'Montserrat';
+	font-size: 2.4em;
+	line-height: 1.5;
+	font-weight: 700;
+	text-align: center;
+	color: #D4EAF3;
+}
+
+#uno > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#uno > div > p {
+	font-size: 1.2em;
+	line-height: 1.5;
+	font-weight: 400;
+	text-align: left;
+	color: #D4EAF3;	
+}
+
+#uno > div > p > span {
+	font-size: 1em;
+	font-weight: 700;
+}
+#marroncete{
+	background:#a66900;
+	padding-bottom: 1em;
+}
+#contacto{
+padding-bottom: 1em;
+}
+#fondo1{
+
+	padding-bottom: 2em;
+}
+
+#quienessomos{
+	padding-bottom: 3em;
+}
+
+#encordado{
+text-align: center;
+}
+#Instrumentos{
+width:100%;
+text-align: center;
+color:white;
+}
+
+#Vinilonaranja{
+background-color: #a66900;
+} 
+#Vinilomarron{
+background-color: #633f1b;
+    padding-bottom: 1em;
+} 
+#bienvenida{
+background:white;
+}
+#ventana{
+background:white;
+}
+
+.modal-title h3 {
+    font-size:1.5em;
+}
+footer{text-align: center;
+    color: black;
+    margin: -0.95em;
+    padding: 2em;
+    background: #d38e42;
+	}
+li{
+list-style: none;
+
+}		
+
+.vinilos{
+text-align:center;
+color:white;
+width:100%;
+}
+.btn-group, .btn-group-vertical {
+   display:block;
+   margin: 1em;
+}
+#Todos{
+margin-bottom: 1em;
+    background: bisque;
+    color: black;
+}
+#Nacionales{
+margin-bottom: 1em;
+background: bisque;
+    color: black;
+}
+#Internacionales{
+margin-bottom: 1em;
+background: bisque;
+    color: black;
+}
+#Accesorios{
+margin-bottom: 1em;
+background: bisque;
+    color: black;
+}
+.navbar {
+    padding: 0;
+    background: #f3b586;
+}
+
+.navbar-nav {
+    width: 100%;
+    background: none;
+    flex-wrap: nowrap;
+}
+
+.modal-fade-show{
+	position: fixed;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(0,0,0,.9);
+}
+#lista {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+ul li span {
+    font-size: 1em;
+    font-weight: 700;
+}
+#lista li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 1.4em;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: left;
+	color: #212529;
+}
+ul li a :hover{
+color:#ffe4c4;
+}
+
+.nav-item {
+    flex: 1;
+    padding: 0;
+}
+
+.nav-link {
+    background-color: none;
+    text-align: center;
+}
+
+
+img[src*=".svg"] {
+    height: 1.25em;
+    opacity: .5;
+}
+
+
+nav .nav-item:nth-of-type(1) img[src*=".svg"] {
+    opacity: 1;
+}
+
+
+[data-role="page"]:target ~ nav .nav-item img[src*=".svg"] {
+    opacity: .5;
+}
+
+
+#uno:target ~ nav .nav-item:nth-of-type(1) img[src*=".svg"] {
+    opacity: 1;
+}
+
+#dos:target ~ nav .nav-item:nth-of-type(2) img[src*=".svg"] {
+    opacity: 1;
+}
+
+#tres:target ~ nav .nav-item:nth-of-type(3) img[src*=".svg"] {
+    opacity: 1;
+}
+
+#cuatro:target ~ nav .nav-item:nth-of-type(4) img[src*=".svg"] {
+    opacity: 1;
+}
+
+[data-role="page"] {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 2.5rem;
+}
+
+
+#uno {
+    display: block;
+}
+
+[data-role="page"]:target {
+    display: block;
+}
+
+#dos:target ~ #uno,
+#tres:target ~ #uno,
+#cuatro:target ~ #uno {
+    display: none;
+}
+
+
+.btn_header {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+
+.navbar-toggler {
+     padding: 0em; 
+}
+.localidades{
+text-align:center;
+}
+div> figure> img>picture{
+margin-bottom:0em;
+
+}
+figcaption{
+background-color: #6a5f4f;
+    color: #fcb426;
+    text-align: center;
+
+}
+.text-muted {
+    color: #dddddd !important;
+}
+#productos > div> btn1:hover, .btn-outline-secondary:hover {
+	border: 1px solid #FCB426;
+	background: #6a5f4f;
+    color: white;	
+}
+#boton-informacion:hover {
+background: bisque;
+    color: black;
+    width: 100%;
+}
+#Todos:hover,#Nacionales:hover,#Internacionales:hover,#Accesorios:hover {
+	border: 1px solid #FCB426;
+	background: #6a5f4f;
+    color: white;	
+}
+
+#vercarrito:hover {
+	border: 1px solid #FCB426;
+	background: #6a5f4f;
+    color: white;	
+}

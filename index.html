@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sergio IDM Final</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="css/bootstrap.css">
+	  <link rel="stylesheet" href="css/estilos.css">
+	 <link rel="icon" type="image/png" sizes="32x32" href="imagenes/favicon.ico">
+   
+</head>
+
+<body>
+
+    
+    <div class="container-fluid" data-role="page" id="dos">
+   <header>
+    <nav class="row mb-3 navbar navbar-light">
+	  <div class="col navbar m-3">
+	  <a class="col-4 navbar-brand" href="index.html">
+		<img src="imagenes/disqueria.png" width="100" height="100" class="d-inline-block align-top" alt="logo nights">
+	  </a>
+	<div class="menu">
+			<p><span>0</span> ítems agregados</p>
+			<p><span>0</span> es el total</p>
+			<button type="button" class="btn " id="vercarrito">Ver carrito</button>
+	</div>
+	</div>
+	</nav>
+	</header>
+	
+	<main>
+	
+	 <section class="row " id="fondo1">
+		<div class="col">
+            <h1 class="text-center"> Productos</h1>
+			<div class="btn-group" role="group" id="filaproductos">
+			 <button id="Todos" type="button" class="btn btn-secondary">Todos</button>
+			  <button id="Nacionales" type="button" class="btn btn-secondary">Vinilos Nacionales</button>
+			  <button id="Internacionales" type="button" class="btn btn-secondary">Vinilos internacionales</button>
+			  <button id="Accesorios" type="button" class="btn btn-secondary">Accesorios</button>
+			</div>
+			
+
+			<div id="productos" class="row m-3">
+			
+			</div>
+			 
+        </div> 
+		
+	</section>
+	</main>
+  
+    </div>
+
+
+
+    <div class="container-fluid" data-role="page" id="tres">
+        
+     <header>
+					<nav class="row mb-3 navbar navbar-light">
+					  <div class="col navbar m-3">
+					  <a class="col-4 navbar-brand" href="index.html">
+						<img src="imagenes/disqueria.png" width="100" height="100" class="d-inline-block align-top" alt="logo nights">
+					  </a>
+					</div>
+					</nav>
+	</header>
+       
+        <section class="row " id="quienessomos">
+		<div class="col">
+            <h1 class="text-center">Quienes somos </h1>
+           <p class="lead">Somos un grupo que se dedica a comerciar y proporcionar productos que si bien pueden encontrar en cualquier disqueria popular pero ademas tenemos la especialidad de contar con accesorios para la musica,especialmente priorizamos la calidad como asi tambien su variedad.</p>
+		  
+		  <h2 class="text-center">Nuestras sucursales</h2>
+		  
+		  	 <div class="row align-items-center" >
+     
+	<div class="col-  col-sm-  col-md- col-lg-6  col-xl borde pb-3">
+	<h3 class="localidades">Microcentro</h3>
+	 <figure class="img-fluid">
+      
+           <img src="imagenes/microcentro.jpg" alt="localidad de microcentro en caba" class="img-fluid figure-img">
+
+		<figcaption> Av Corrientes 543</figcaption> 
+    </figure>
+	
+
+	</div>
+		
+	<div class="col-  col-sm-  col-md- col-lg-6  col-xl borde pb-3">
+	
+	<h3 class="localidades">Caballito</h3>    
+	<figure>
+  
+           <img src="imagenes/caballito.jpg" alt="localidad de caballito en caba" class="img-fluid figure-img">
+		   
+	
+		<figcaption>Av  Pedro Goyena 2311</figcaption>
+			</figure>
+
+	</div>
+
+	
+	</div>
+		  <h2>El creador de Disqueria nights.</h2>
+                     <p class="card-text">He aqui un poco de la biografia acerca del creador de disqueria nights</p>
+                    <button type="button" id="boton-informacion" class="btn btn-block" data-toggle="modal" data-target="#modal2">
+                            Mas info
+                    </button>
+
+         </div> 
+		 
+		</section>
+	
+ 
+    </div>
+
+
+
+    
+    <div class="container-fluid" data-role="page" id="cuatro">
+    
+           	<header>
+    <nav class="row mb-3 navbar navbar-light">
+	  <div class="col navbar m-3">
+	  <a class="col-4 navbar-brand" href="index.html">
+		<img src="imagenes/disqueria.png" width="100" height="100" class="d-inline-block align-top" alt="logo nights">
+	  </a>
+	
+	</div>
+	</nav>
+	</header>
+
+        <section class="row" id="contacto">
+		<div class="col">
+            <h1 class="text-center">Contacto</h1>
+            <p>Para contactarte con nosotros completá el formulario o escribinos a informes@disquerianights.com.ar y nos comunicaremos lo mas rapido posible. </p>
+            <p>Desde ya muchas gracias.</p>
+            <div class="row justify-content-center">
+                <div class="col-md-12 borde pb-3">
+                    <form>
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Nombre...">
+                        </div>
+                        <div class="form-group">
+                            <label for="mail">Mail</label>
+                            <input type="email" class="form-control" id="mail" aria-describedby="ayudamail" placeholder="email...">
+                            <small id="ayudamail" class="form-text text-muted">Tu dirección de email está segura con nosotros.</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="edad">Numero</label>
+                            <input type="number" class="form-control" id="edad" placeholder="edad...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="comentario">Opinion o critica Constructiva</label>
+                            <textarea id="comentario" class="form-control" cols="30" rows="5"></textarea>
+                        </div>
+
+                        
+                        
+<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+<input type="reset" value="limpiar" class="btn btn-danger">
+  <input type="submit" value="enviar" class="btn btn-success">
+</div>
+                    </form>
+
+                </div>
+			</div> 	
+            </div>
+
+
+        </section>
+      
+    </div>
+
+
+
+
+  
+    <div class="container-fluid" data-role="page" id="uno">
+       
+    <header>
+	
+    <nav class="row mb-3 navbar navbar-light">
+	  <div class="col navbar m-3">
+	  <a class="col-4 navbar-brand" href="index.html">
+		<img src="imagenes/disqueria.png" width="100" height="100" class="d-inline-block align-top" alt="logo nights">
+	  </a>
+	</div>
+	</nav>
+
+	</header>
+     
+	
+    <div class="row m-3">   
+      <section>
+          <h1 class="text-center">Bienvenidos a Disqueria Nights</h1>
+          <p class="text-left">Encuentra los mejores productos para disfrutar de la mejor musica en tu trabajo,hogar o en donde quieras.</p>
+      </section>
+	 </div>
+	
+    
+        <div id="Vinilonaranja" class="row bg-light mt-3">
+            <h2 class="vinilos">Vinilos mas escuchados por los usuarios</h2>
+
+	<div class="row m-3">
+            
+		<div class="col-  col-sm-4  col-md-4  col-lg-4  col-xl-4">
+                <figure class="figure">
+                    <img src="imagenes/linkinpark.jpg" alt="vinilo de linkin park de linkin park" class="img-fluid figure-img" >
+                </figure>
+
+        </div>
+		
+		<div class="col-  col-sm-4  col-md-4  col-lg-4  col-xl-4">
+                <figure class="figure">
+                    <img src="imagenes/megadethbsas.jpg" alt="vinilo de megadeth that one night in buenos aires de megadeth" class="img-fluid figure-img">
+                </figure>
+        </div>
+		
+		<div class="col-  col-sm-4  col-md-4  col-lg-4  col-xl-4">
+                <figure class="figure">
+                    <img src="imagenes/prevalecer.jpg" alt="vinilo de prevalecer valor interior" class="img-fluid figure-img">
+                </figure>
+        </div>
+		
+		<div class="col-  col-sm-4  col-md-4  col-lg-4  col-xl-4">
+                <figure class="figure">
+                    <img src="imagenes/tdc.jpg" alt="vinilo teoria del caos de dejavu" class="img-fluid figure-img">
+                </figure>
+        </div>
+        
+		<div class="col-  col-sm-4  col-md-4  col-lg-4  col-xl-4">
+                <figure class="figure">
+                    <img src="imagenes/sep7imo.jpg" alt="vinilo de septimo dia de soda stereo" class="img-fluid figure-img">
+                </figure>
+        </div>
+		
+		<div class="col-  col-sm-4  col-md-4  col-lg-4  col-xl-4">
+                <figure class="figure">
+                    <img src="imagenes/ramones.jpg" alt="vinilo ramones de ramones" class="img-fluid figure-img">
+                </figure>
+        </div>
+        </div>
+        </div>
+
+
+		
+		
+        <div id="Vinilomarron" class="row bg-light mt-3">
+            <h2 class="vinilos">Vinilos mas vendidos</h2>
+            	<div class="row m-3">
+            
+		<div class="col-  col-sm-4  col-md-4  col-lg-4  col-xl-4">
+                <figure class="figure">
+                    <img src="imagenes/animal.jpg" alt="vinilo red house de la banda a.n.i.m.a.l " class="img-fluid figure-img">
+                </figure>
+
+        </div>
+		
+		<div class="col-  col-sm-4  col-md-4  col-lg-4  col-xl-4">
+                <figure class="figure">
+                    <img src="imagenes/theend.jpg" alt="vinilo the end de black sabbatth" class="img-fluid figure-img">
+                   
+                </figure>
+        </div>
+		
+		<div class="col-  col-sm-4  col-md-4  col-lg-4  col-xl-4">
+                <figure class="figure">
+                    <img src="imagenes/afterlife.jpg" alt="vinilo uno de afterlife" class="img-fluid figure-img">
+                 
+                </figure>
+        </div>
+		
+		<div class="col-  col-sm-4  col-md-4  col-lg-4  col-xl-4">
+                <figure class="figure">
+                    <img src="imagenes/delatierraII.jpg" alt="vinilo II de de la tierra" class="img-fluid figure-img">
+                    
+                </figure>
+        </div>
+        
+		<div class="col-  col-sm-4  col-md-4  col-lg-4  col-xl-4">
+                <figure class="figure">
+                    <img src="imagenes/inflexion.jpg" alt="vinilo eternidad de inflexion" class="img-fluid figure-img">
+                   
+                </figure>
+        </div>
+		
+		<div class="col-  col-sm-4  col-md-4  col-lg-4  col-xl-4">
+                <figure class="figure">
+                    <img src="imagenes/cancionanimal.jpg" alt="vinilo cancion animal de soda stereo" class="img-fluid figure-img">
+
+                </figure>
+        </div>
+        </div>
+
+        </div>
+ 
+</div>
+
+
+ <nav class="col navbar fixed-bottom navbar-expand-md navbar-light bg-light">
+                <button class="navbar-toggler ml-auto" 
+                        type="button" 
+                        data-toggle="collapse" 
+                        data-target="#barra" 
+                        aria-controls="barra" 
+                        aria-expanded="false" 
+                        aria-label="Menú Hamburguesa">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="barra">
+                    <ul class="navbar-nav text-center ml-auto">
+                        <li class="nav-item">
+                           <a class="nav-link border-right" href="#uno"><img src="imagenes/casita.svg" alt="home"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link border-right" href="#dos"><img src="imagenes/instrumentos.svg" alt="productos"></a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link border-right" href="#tres"><img src="imagenes/perfilnights.svg" alt="quienes somos"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cuatro"><img src="imagenes/contacto.svg" alt="contactanos"></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+		
+		
+		
+        <script src="js/jquery-3.4.1.js"></script>
+        <script src="js/bootstrap.bundle.js"></script>
+        <script>
+            $('.text-truncate').on('click', function() {
+                $(this).toggleClass('text-truncate');
+
+            });
+
+        </script>
+		<script src="js/productos.js"></script>
+        
+</body>
+</html>
